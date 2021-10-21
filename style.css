@@ -753,6 +753,9 @@ h4 {
 .list {
     font-weight: 900;
 }
+.list li {
+    padding: 1.3rem;
+}
 .list > ul > li a {
     font-size: 1.3em;
     font-weight: 700;
