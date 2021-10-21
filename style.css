@@ -748,6 +748,7 @@ h4 {
     font-weight: 900;
 }
 .list > ul > li a {
+    font-size: 1.3em;
     font-weight: 700;
     color: #000000!important;
 }
