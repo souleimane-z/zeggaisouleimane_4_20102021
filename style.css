@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #000;
 }
 
 .d-bloc .a-btn:hover,
@@ -737,10 +737,20 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-    font-size: 1.3rem;      //changé
-    line-height: 1.5em;     //changé
+    font-size: 1.3rem;     
+    line-height: 1.5em;    
 }
-
+.black {
+    color: #000000!important;
+    font-size: 1.5rem;
+}
+.list {
+    font-weight: 900;
+}
+.list > ul > li a {
+    font-weight: 700;
+    color: #000000!important;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -755,7 +765,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.88);
     padding: 40px 40px 40px 40px;
 }
 
@@ -773,16 +783,18 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #e9520b;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #e9520b!important;
 }
-
+.row h2 {
+    color: #e9520b!important;
+}
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #e9520b;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -826,7 +838,11 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-
+.h2-img {
+    font-style: italic; 
+    font-size: 3rem; 
+    font-family: Helvetica; 
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
