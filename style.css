@@ -809,7 +809,20 @@ h4 {
     background: #e9520b;
     color: #000!important;
 }
-
+#bloc-6 h1 {
+    color: #000!important; 
+    font-weight: 800;
+}
+#bloc-6 p {
+    color: #000!important; 
+    font-size: large; 
+    font-weight: 700;
+}
+#contact-info {
+    font-size: 1.5rem;
+    line-height: 2.3em;
+    font-weight: 700;
+}
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
