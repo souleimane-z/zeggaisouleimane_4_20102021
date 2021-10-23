@@ -37,7 +37,7 @@
 		<nav class="navbar row">
 			<div class="navbar-header">
 
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.webp" alt="Logo principale de La Chouette Agence" height="40" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.webp" alt="Logo principale de La Chouette Agence" height="40" width="215" /></a>
 
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
@@ -65,7 +65,7 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
-				<img src="img/logo.webp" class="center-block image-resize-mode" width="100" alt="Logo de La chouette agence" />
+				<img src="img/logo.webp" class="center-block image-resize-mode" width="100" height="100" alt="Logo de La chouette agence" />
 				<h1 class="text-center hero-bloc-text tc-white ">
 					La chouette agence.
 				</h1>
@@ -83,7 +83,7 @@
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<h2 class="h2-img" style="color: #000!important;">La chouette est une agence de web design qui aide les entreprises à devenir attractives sur Internet.</h2>
+				<h2 class="h2-img" id="black-h2">La chouette est une agence de web design qui aide les entreprises à devenir attractives sur Internet.</h2>
 			</div>
 		</div>
 		<div class="row voffset-lg med-width-whitespace">
@@ -94,7 +94,7 @@
 				<h3 class="mg-md text-center">
 					Web design
 				</h3>
-				<p class="text-center " style="font-size: 1.3rem;">
+				<p class="text-center job-describ">
 					Que vous ayez un site web qui a besoin d&rsquo;un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.
 				</p>
 			</div>
@@ -105,7 +105,7 @@
 				<h3 class="mg-md text-center">
 					&nbsp;Stratégie
 				</h3>
-				<p class="text-center " style="font-size: 1.3rem;">
+				<p class="text-center job-describ">
 					Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre vos objectifs commerciaux afin de vous proposer le meilleur design possible.<br>
 				</p>
 			</div>
@@ -116,14 +116,14 @@
 				<h3 class="mg-md text-center">
 					Illustrations
 				</h3>
-				<p class="text-center " style="font-size: 1.3rem;">
+				<p class="text-center job-describ">
 					Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de graphistes talentueux pour donner à vos pages une touche finale d'élégance.
 				</p>
 			</div>
 		</div>
 		<div class="row voffset-lg voffset">
 			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-				<p style="font-style: italic; font-size: 1.9rem; color: black;">
+				<p id="p-quote">
 					"La chouette agence est une excellente agence web ! Les 
 					<br> 
 					web designers ont réussi à capturer l'essence de notre 
@@ -131,7 +131,7 @@
 					entreprise et à l'intégrer à notre site. Cela nous a aidé à 
 					<br>
 					doubler nos ventes en lignes à Lyon."</p>
-				<p style="font-weight: 500; font-size: 1.5rem; color: black;">
+				<p id="p-name">
 					Maxime Guibard, PDG de 	&Agrave; vos fourchettes 
 				</p>
 				
@@ -163,21 +163,22 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<p style="font-weight: 550; font-size: 2.2rem; color: black;">
+				<h2 id="p-portfolio">
 					Nous travaillons avec beaucoup de clients,
 					<br>
 					voici nos réalisations.
-				</p>
+				</h2>
 
 			</div>
 		</div>
-		<div class="row tight-width-whitespace portfolio-row">
+		<div class="row tight-width-whitespace portfolio-row bloc-center">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/1.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.webp" alt="Images de plusieurs magazines empilés" class="img-responsive portfolio-thumb" /></a>
+				<a href="#" data-lightbox= "img/1.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
+					<img src="img/1.webp" alt="Images de plusieurs magazines empilés" class="img-responsive portfolio-thumb " /></a>
 				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
 				</h3>
-				<p class="text-center" style="font-size: 1.3rem;">
+				<p class="text-center size1-3">
 					Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
 				</p>
 			</div>
@@ -186,18 +187,18 @@
 				<h3 class="mg-md text-center">
 					Création d'un site web pour photographes
 				</h3>
-				<p class="text-center" style="font-size: 1.3rem;">
+				<p class="text-center size1-3">
 					Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
 				</p>
 			</div>
 		</div>
-		<div class="row tight-width-whitespace portfolio-row">
+		<div class="row tight-width-whitespace portfolio-row bloc-center">
 			<div class="col-sm-6">
 				<a href="#" data-lightbox="img/3.webp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.webp" class="img-responsive portfolio-thumb" alt="Matériel de photographes"/></a>
 				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
 				</h3>
-				<p class="text-center" style="font-size: 1.3rem;">
+				<p class="text-center size1-3">
 					Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
 				</p>
 			</div>
@@ -206,7 +207,7 @@
 				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
 				</h3>
-				<p class="text-center" style="font-size: 1.3rem;">
+				<p class="text-center size1-3">
 					Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
 				</p>
 			</div>
@@ -219,7 +220,7 @@
 <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 	<div class="container bloc-lg">
 		<div class="row black-background">
-			<h2 class="mg-md text-center tc-white" style="font-weight: 900;">
+			<h2 class="mg-md text-center tc-white" id="h2-final">
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
 			<div class="col-sm-12 text-center">

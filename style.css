@@ -763,8 +763,6 @@ h4 {
 }
 .portfolio-thumb {
     margin-bottom: 24px;
-}
-.col-sm-6 > a > img {
     width: 270px;
     height: 270px;
 }
@@ -779,7 +777,7 @@ h4 {
 
 .black-background {
     background-color: rgba(0, 0, 0, 0.88);
-    padding: 40px 40px 40px 40px;
+    padding: 20px 20px 20px 20px;
 }
 
 .bold-link {
@@ -864,10 +862,38 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+#black-h2 {
+    color: #000000!important;
+}
 .h2-img {
     font-style: italic; 
     font-size: 3rem; 
-    font-family: Helvetica; 
+    font-family: Helvetica;
+}
+.job-describ {
+    font-size: 1.3rem;
+}
+#h2-final {
+    opacity: 1;
+    color: #FFF!important;
+    font-weight: 900;
+}
+.size1-3 {
+    font-size: 1.3rem;
+}
+#p-quote {
+    font-style: italic; 
+    font-size: 1.9rem; 
+    color: #000;
+}
+#p-name {
+    font-weight: 600; 
+    font-size: 1.5rem; 
+    color: #000;
+}
+#p-portfolio {
+    font-weight: 650; 
+    font-size: 2.2rem; 
     color: #000!important;
 }
 @media (max-width: 1024px) {
@@ -1071,6 +1097,20 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bloc-center {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .portfolio-row .col-sm-6 {
+        width: 270px;
+        height: 400px;
+        margin: 0 2rem 2rem 0;
+
+    }
+    .bloc-center img { padding-bottom: 1em;}
+    .bloc-center .text-center { margin: auto!important; width: 230px; text-align: center; padding-left: auto!important; padding-right: auto!important;}
 }
 
 @media (max-width: 400px) {
