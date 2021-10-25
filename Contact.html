@@ -6,6 +6,7 @@
     <meta name="description" content="Formulaire de contact pour La chouette agence">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css" media="print" onload="this.media='all'">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="preload" as="font" type="text/css" href="./css/font-awesome.css" media="print" onload="this.media='all'">
@@ -84,7 +85,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" >
+				<form id="form_1" role="form" id="contact-info" aria-label="Contact information">
 					<div class="form-group">
 						<label>
 							Nom
@@ -113,7 +114,7 @@
 					</button>
 				</form>
 			</div>
-			<div class="col-sm-6">
+			<div class="col-sm-6" >
 				<p id="contact-info">
 					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
