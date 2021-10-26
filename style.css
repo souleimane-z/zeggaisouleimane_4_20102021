@@ -328,7 +328,11 @@ a:hover {
     margin-top: 4px;
     font-size: 16px;
 }
-
+.nav-a {
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
@@ -1004,6 +1008,7 @@ h4 {
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
+    
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
